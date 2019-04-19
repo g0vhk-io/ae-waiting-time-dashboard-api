@@ -1,0 +1,16 @@
+FROM python:3.6-jessie
+RUN mkdir /app
+RUN mkdir /app/static
+WORKDIR /app
+ADD requirements.txt /app
+RUN pip install -U pip && pip install -r requirements.txt
+ADD . /app
+ARG MYSQL_USER
+ARG MYSQL_PASSWORD
+ARG MYSQL_HOST
+ARG MYSQL_DATABASE
+ENV MYSQL_USER="$MYSQL_USER"
+ENV MYSQL_PASSWORD="$MYSQL_PASSWORD"
+ENV MYSQL_HOST="$MYSQL_HOST"
+ENV MYSQL_DATABASE="$MYSQL_DATABASE"
+CMD ./run.sh

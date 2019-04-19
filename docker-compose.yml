@@ -1,0 +1,25 @@
+version: '3'
+services:
+  db:
+    image: mariadb:10.2.12
+    ports:
+      - "33306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=docker
+      - MYSQL_DATABASE=docker
+      - MYSQL_USER=docker
+      - MYSQL_PASSWORD=docker
+      - MYSQL_PORT=3306
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
+  web:
+    build:
+      context: ./ae_waiting_time
+      args:
+        - MYSQL_DATABASE=docker
+        - MYSQL_USER=docker
+        - MYSQL_PASSWORD=docker
+        - MYSQL_HOST=db
+    ports:
+      - "10000:8080"
+    links:
+      - db
