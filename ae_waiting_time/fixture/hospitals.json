@@ -1,0 +1,199 @@
+[{
+		"fields": {
+			"en_name": "Alice Ho Miu Ling Nethersole Hospital",
+			"ch_name": "雅麗氏何妙齡那打素醫院",
+			"short_ch_name": "大埔那打素",
+			"latitude": 22.4586,
+			"longitude": 114.1748
+		},
+		"pk": 1,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Caritas Medical Centre",
+			"ch_name": "明愛醫院",
+			"short_ch_name": "明愛",
+			"latitude": 22.3415,
+			"longitude": 114.151
+		},
+		"pk": 2,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Kwong Wah Hospital",
+			"ch_name": "廣華醫院",
+			"short_ch_name": "廣華",
+			"latitude": 22.3152,
+			"longitude": 114.1724
+		},
+		"pk": 3,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "North District Hospital",
+			"ch_name": "北區醫院",
+			"short_ch_name": "北區",
+			"latitude": 22.4968,
+			"longitude": 114.1246
+		},
+		"pk": 4,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "North Lantau Hospital",
+			"ch_name": "北大嶼山醫院",
+			"short_ch_name": "北大嶼山",
+			"latitude": 22.2826,
+			"longitude": 113.9391
+		},
+		"pk": 5,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Pamela Youde Nethersole Eastern Hospital",
+			"ch_name": "東區尤德夫人那打素醫院",
+			"short_ch_name": "東區那打素",
+			"latitude": 22.27,
+			"longitude": 114.2367
+		},
+		"pk": 6,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Pok Oi Hospital",
+			"ch_name": "博愛醫院",
+			"short_ch_name": "博愛",
+			"latitude": 22.4454,
+			"longitude": 114.0414
+		},
+		"pk": 7,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Prince of Wales Hospital",
+			"ch_name": "威爾斯親王醫院",
+			"short_ch_name": "威爾斯",
+			"latitude": 22.3797,
+			"longitude": 114.2012
+		},
+		"pk": 8,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Princess Margaret Hospital",
+			"ch_name": "瑪嘉烈醫院",
+			"short_ch_name": "瑪嘉烈",
+			"latitude": 22.3401,
+			"longitude": 114.1347
+		},
+		"pk": 9,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Queen Elizabeth Hospital",
+			"ch_name": "伊利沙伯醫院",
+			"short_ch_name": "伊利沙伯",
+			"latitude": 22.3091,
+			"longitude": 114.1746
+		},
+		"pk": 10,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Queen Mary Hospital",
+			"ch_name": "瑪麗醫院",
+			"short_ch_name": "瑪麗",
+			"latitude": 22.2704,
+			"longitude": 114.1305
+		},
+		"pk": 11,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Ruttonjee Hospital",
+			"ch_name": "律敦治醫院",
+			"short_ch_name": "律敦治",
+			"latitude": 22.2759,
+			"longitude": 114.1753
+		},
+		"pk": 12,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "St John Hospital",
+			"ch_name": "長洲醫院",
+			"short_ch_name": "長洲",
+			"latitude": 22.2081,
+			"longitude": 114.0315
+		},
+		"pk": 13,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Tin Shui Wai Hospital",
+			"ch_name": "天水圍醫院",
+			"short_ch_name": "天水圍",
+			"latitude": 22.4587,
+			"longitude": 113.9958
+		},
+		"pk": 14,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Tseung Kwan O Hospital",
+			"ch_name": "將軍澳醫院",
+			"short_ch_name": "將軍澳",
+			"latitude": 22.3183,
+			"longitude": 114.2702
+		},
+		"pk": 15,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Tuen Mun Hospital",
+			"ch_name": "屯門醫院",
+			"short_ch_name": "屯門",
+			"latitude": 22.4072,
+			"longitude": 113.9762
+		},
+		"pk": 16,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "United Christian Hospital",
+			"ch_name": "基督教聯合醫院",
+			"short_ch_name": "聯合",
+			"latitude": 22.3222,
+			"longitude": 114.2279
+		},
+		"pk": 17,
+		"model": "core.Hospital"
+	},
+	{
+		"fields": {
+			"en_name": "Yan Chai Hospital",
+			"ch_name": "仁濟醫院",
+			"short_ch_name": "仁濟",
+			"latitude": 22.3695,
+			"longitude": 114.1194
+		},
+		"pk": 18,
+		"model": "core.Hospital"
+	}
+]
