@@ -22,7 +22,8 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Hospital',
             fields=[
-                ('en_name', models.CharField(max_length=100, primary_key=True, serialize=False)),
+                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('en_name', models.CharField(max_length=100, serialize=False)),
                 ('ch_name', models.CharField(max_length=100)),
                 ('short_ch_name', models.CharField(max_length=100)),
                 ('latitude', models.FloatField()),
