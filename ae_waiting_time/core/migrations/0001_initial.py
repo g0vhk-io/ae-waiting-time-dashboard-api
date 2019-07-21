@@ -15,7 +15,8 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='DateDimension',
             fields=[
-                ('key', models.CharField(max_length=100, primary_key=True, serialize=False)),
+                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('key', models.CharField(max_length=100, unique=True, serialize=False)),
                 ('date_time', models.DateTimeField()),
             ],
         ),

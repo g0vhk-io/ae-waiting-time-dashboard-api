@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'rest_framework',
+    'django.contrib.staticfiles',
     'core'
 #    'django.contrib.staticfiles',
 ]
@@ -118,3 +119,7 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
